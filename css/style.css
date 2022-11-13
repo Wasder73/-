@@ -21,10 +21,10 @@ body {
     display: flex;
     flex-direction: column;
     width: 400px;
-    border: 1px solid #C2D6F8;
+    border: 1px solid #dcd0ff;
     padding: 20px 30px;
     border-radius: 10px;
-    background-color: #C2D6F8;
+    background-color: #dcd0ff;
 }
 
 #modal {
@@ -47,7 +47,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    background-color: #dcd0ff;
     height: 30px;
     border-radius: 6px;
     width: 30px;
@@ -56,7 +56,7 @@ header {
 
 .fa-address-book{
     font-size: 40px;
-    color: #6495ED;
+    color: #7b68ee;
 }
 
 .search__container {
@@ -72,7 +72,7 @@ header {
     color: white;
     padding: 8px;
     border-radius: 4px;
-    background-color:#6495ED;
+    background-color:#7b68ee;
     left: 260px;
 }
 
@@ -90,7 +90,7 @@ header {
     border-radius: 10px;
     width: 238px;
     margin-right: 150px;
-    border: 1px solid #C2D6F8;
+    border: 1px solid #dcd0ff;
 }
 
 
@@ -106,7 +106,7 @@ header {
     padding: 10px;
     display: flex;
     align-items: center;
-    background-color: white;
+    background-color: gray;
     border-radius: 10px;
     margin-top: 10px;
     color: black ;
@@ -138,11 +138,11 @@ header {
     color: black;
 }
 .contact__i:hover {
-    color:#6495ED;
+    color:#7b68ee;
 }
 
 .contact__i:active {
-    color:#C2D6F8;
+    color:#dcd0ff;
 }
 
 .fa-times {
@@ -159,17 +159,17 @@ header {
     border-radius: 10px;
     font-family: sans-serif;
     font-size: 20px;
-    background-color: #6495ED;
+    background-color: #7b68ee;
 }
 
 .header__title {
     font-size: 32px;
     color: white!important;
     text-shadow: 
-1px 0 1px #6495ED, 
-0 1px 1px #6495ED, 
--1px 0 1px #6495ED, 
-0 -1px 1px #6495ED;
+1px 0 1px #7b68ee, 
+0 1px 1px #7b68ee, 
+-1px 0 1px #7b68ee, 
+0 -1px 1px #7b68ee;
 }
 
 form {
@@ -182,7 +182,7 @@ form {
 
 label {
     margin-bottom: 5px;
-    color: #6495ED;
+    color: #7b68ee;
 }
 
 .input-grup {
@@ -199,7 +199,7 @@ label {
 .row-span {
     margin-top: 200px;
     text-align: center;
-    color: gray;
+    color: black;
 }
 .fa-user-plus{
     color: white;
