@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhoneBook</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="modal">
+            <header>
+                <span class="logo">
+                    <i class="fa fa-address-book" aria-hidden="true"></i>
+                </span>
+                <h1 class="header__title">Add contact</h1>
+            </header>
+            <form action="#">
+                <div class="input-grup">
+                    <label for="input-name"></label>
+                    <input type="text" min="2" max="10" class="form__input" id="input__name" placeholder="Name...">
+                </div>
+                
+                <div class="input-grup">
+                    <label for="input-phone"></label>
+                    <input type="tel" min="11" class="form__input input__phone" id="input__phone"placeholder="Number...">
+                </div>
+                
+                <div class="check-grup">
+                    <input type="checkbox" id="like">
+                    <label for="like" class="label-favorites">Favorites</label>
+                </div>
+            </form>
+            <footer>
+                <a class="btn practice-create">Create</a>
+            </footer>
+        </div>
+        <div id="book">
+            <header>
+                <span class="logo practice-contact">
+                    <i class="fa fa-address-book" aria-hidden="true"></i>
+                </span>
+                <div class="search__container">
+                    <i class="fa fa-search search__icon practice-search" aria-hidden="true"></i>
+                    <input type="search" class="search__input" id="search__input_">
+                </div>
+            </header>
+            <main id="row">
+                <span class="row-span">
+                <i class="fa fa-user-plus" aria-hidden="true"></i>
+            </span>
+            </main>
+            <footer>
+                <a class="btn practice-add">ADD</a>
+            </footer>
+        </div>
+    </div>
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/practice.js"></script>
+    <script type="text/javascript">
+        $('.container').practice();
+    </script>
+</body>
+</html>
