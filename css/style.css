@@ -131,11 +131,11 @@ header {
 
 .contact__h4 {
     margin-bottom: 5px;
-    color: gray;
+    color: black;
 }
 
 .contact__i {
-    color: gray;
+    color: black;
 }
 .contact__i:hover {
     color:#6495ED;
